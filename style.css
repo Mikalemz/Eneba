@@ -1,0 +1,150 @@
+/* Configuración General */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #1a1a1b;
+  padding: 12px 30px;
+  font-family: Arial, sans-serif;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+/* Logo Amarillo */
+h2 {
+  color: #ffda00;
+  font-size: 1.4rem;
+  font-weight: 800;
+  margin-left: 10px;
+}
+
+/* Buscador Estilo Eneba */
+.buscador {
+  display: flex;
+  flex-grow: 1;
+  max-width: 650px;
+  margin: 0 40px;
+}
+
+.buscador input {
+  width: 100%;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 4px 0 0 4px; /* Un poco más cuadrado como la imagen */
+  background-color: #272728;
+  color: white;
+  outline: none;
+}
+
+.buscador button {
+  background-color: #333334;
+  color: #ffffff;
+  border: none;
+  padding: 10px 22px;
+  border-radius: 0 4px 4px 0;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.buscador button:hover {
+  background-color: #444445;
+}
+
+/* Enlaces de Usuario */
+.enlaces-usuario {
+  display: flex;
+  align-items: center;
+  gap: 30px; /* Espacio entre Tienda, Carrito y Login */
+}
+
+.enlaces-usuario a {
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 0.95rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+/* Imagen del Carrito */
+.cart-img {
+  width: 24px;
+  height: auto;
+  filter: brightness(0) invert(1);
+}
+
+/* Efecto hover en el Login */
+.enlaces-usuario a:hover {
+  color: #ffda00;
+}
+
+/*MAIN*/
+
+.banner {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("imagenes/exp33.jpg"); /* <-- AJUSTA ESTO: carpeta/nombre_archivo.extensión */
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.banner h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.banner p {
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+.banner button {
+  background-color: #ffda00; /* Amarillo Eneba */
+  border: none;
+  padding: 15px 30px;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* --- SECCIÓN CATEGORÍAS (Sin cambios) --- */
+.categorias {
+  padding: 40px;
+  text-align: center;
+  background-color: #f5f5f5;
+}
+
+.lista-categorias {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.enlace-cat {
+  text-decoration: none;
+  color: white;
+  background-color: #333;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.enlace-cat:hover {
+  background-color: #ffda00;
+  color: black;
+}

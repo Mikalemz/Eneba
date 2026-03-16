@@ -1,111 +1,53 @@
-<header>
-  <nav>
-    <strong>ENEBA CLONE</strong>
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EnebaClone</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h2>ENEBA CLONE</h2>
 
-    <div>
-      <input type="text" placeholder="Buscar juegos divertidos..." />
-      <button>Buscar</button>
-    </div>
+        <div class="buscador">
+          <input type="text" placeholder="Buscar juegos divertidos..." />
+          <button type="button">Buscar</button>
+        </div>
 
-    <div>
-      <span>Tienda</span>
-      <span>Login</span>
-    </div>
-  </nav>
-</header>
+        <div class="enlaces-usuario">
+          <a href="index.html">Tienda</a>
+          <a href="carrito.html">
+            <img src="imagenes/carrito.png" alt="Cart" class="cart-img" />
+          </a>
+          <a href="login.html">Login</a>
+        </div>
+      </nav>
+    </header>
 
-<main>
-  <main>
-    <section class="banner">
-      <h1>Descubre tu próxima aventura</h1>
-      <p>
-        Miles de juegos para PC, PlayStation, Xbox y Nintendo a precios
-        increíbles.
-      </p>
-      <button type="button">Explorar Tienda →</button>
-    </section>
+    <main>
+      <section class="banner">
+        <h1>Descubre tu próxima aventura</h1>
+        <p>
+          Miles de juegos para PC, PlayStation, Xbox y Nintendo a precios
+          increíbles.
+        </p>
+        <button type="button">Explorar Tienda →</button>
+      </section>
 
-    <section class="categorias">
-      <h2>Categorías Populares</h2>
-      <div class="botones-plataforma">
-        <button type="button">PC Games</button>
-        <button type="button">PlayStation</button>
-        <button type="button">Xbox</button>
-        <button type="button">Nintendo</button>
-      </div>
-    </section>
-
-    <section>
-      <h2>Ofertas Destacadas</h2>
-
-      <div class="contenedor-ofertas">
-        <a href="product.html">
-          <article class="tarjeta-juego">
-            <div class="cabecera-tarjeta">
-              <span class="plataforma">SWITCH</span>
-            </div>
-            <div class="imagen-juego"></div>
-            <div class="info-juego">
-              <h3>Super Mario Bros. Wonder</h3>
-              <div class="precios">
-                <span class="precio-actual">59.99€</span>
-              </div>
-            </div>
-          </article>
-        </a>
-
-        <a href="producto.html">
-          <article class="tarjeta-juego">
-            <div class="cabecera-tarjeta">
-              <span class="descuento">-15%</span>
-              <span class="plataforma">XBOX</span>
-            </div>
-            <div class="info-juego">
-              <h3>Forza Horizon 5</h3>
-              <div class="precios">
-                <span class="precio-tachado">39.99€</span>
-                <span class="precio-actual">33.99€</span>
-              </div>
-            </div>
-          </article>
-        </a>
-
-        <a href="producto.html">
-          <article class="tarjeta-juego">
-            <div class="cabecera-tarjeta">
-              <span class="descuento">-50%</span>
-              <span class="plataforma">PC</span>
-            </div>
-            <div class="info-juego">
-              <h3>Cyberpunk 2077</h3>
-              <div class="precios">
-                <span class="precio-tachado">29.99€</span>
-                <span class="precio-actual">14.99€</span>
-              </div>
-            </div>
-          </article>
-        </a>
-
-        <a href="producto.html">
-          <article class="tarjeta-juego">
-            <div class="cabecera-tarjeta">
-              <span class="descuento">-5%</span>
-              <span class="plataforma">PC</span>
-            </div>
-            <div class="info-juego">
-              <h3>Elden Ring</h3>
-              <div class="precios">
-                <span class="precio-tachado">59.99€</span>
-                <span class="precio-actual">56.99€</span>
-              </div>
-            </div>
-          </article>
-        </a>
-      </div>
-    </section>
-
+      <section class="categorias">
+        <h2>Categorías Populares</h2>
+        <div class="lista-categorias">
+          <a href="categoria-pc.html" class="enlace-cat">PC Games</a>
+          <a href="categoria-ps5.html" class="enlace-cat">PlayStation</a>
+          <a href="categoria-xbox.html" class="enlace-cat">Xbox</a>
+          <a href="categoria-nintendo.html" class="enlace-cat">Nintendo</a>
+        </div>
+      </section>
+    </main>
     <footer>
       <p>© 2026 Eneba Clone MVP. Proyecto Educativo.</p>
     </footer>
-  </main>
-</main>
+  </body>
+</html>
