@@ -19,8 +19,7 @@
 .banner {
   background:
     linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("../imagenes/exp33.jpg"); /* <-- AJUSTA ESTO: carpeta/nombre_archivo.extensión */
-  background-size: cover;
+    url("../imagenes/exp33.jpg");
   background-position: center;
   color: white;
   text-align: center;
@@ -47,7 +46,7 @@
   cursor: pointer;
 }
 
-/* --- SECCIÓN CATEGORÍAS (Sin cambios) --- */
+/* --- SECCIÓN CATEGORÍAS*/
 .categorias {
   padding: 40px;
   text-align: center;
