@@ -98,3 +98,30 @@ h2 {
 .enlaces-usuario a:hover {
   color: #ffda00;
 }
+
+
+/*CONFIGURACION GENERAL*/
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Esto obliga al body a medir al menos el 100% de la altura de la pantalla */
+  margin: 0;
+  background-color: #323233; 
+  color: white; 
+}
+
+
+/* --- ESTILO DEL FOOTER --- */
+footer {
+  background-color: #1a1a1b;
+  color: #888;
+  padding: 30px 0;
+  text-align: center;
+  border-top: 1px solid #272728;
+  width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
