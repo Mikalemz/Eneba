@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eneba Clone - Catálogo de Juegos</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="CSS/catalogo.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <h1><a href="index.html">ENEBA CLONE</a></h1>
+            <div class="buscador">
+                <input type="text" placeholder="Buscar juegos divertidos...">
+                <button type="button">Buscar</button>
+            </div>
+            <div class="enlaces-usuario">
+                <a href="catalogo.html">Tienda</a>
+                <a href="carrito.html">
+                    <img src="imagenes/carrito.png" alt="Cart" class="cart-img">
+                </a>
+                <a href="login.html">Login</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="catalogo-main">
+        <h2>Catálogo de Juegos</h2>
+
+        <section class="contenido-catalogo">
+            <aside class="filtros">
+                <h3>Plataforma</h3>
+                <form>
+                    <div class="opcion-filtro">
+                        <label><input type="radio" name="plataforma" checked> Todas</label>
+                    </div>
+                    <div class="opcion-filtro">
+                        <label><input type="radio" name="plataforma"> PC</label>
+                    </div>
+                    <div class="opcion-filtro">
+                        <label><input type="radio" name="plataforma"> PS5</label>
+                    </div>
+                    <div class="opcion-filtro">
+                        <label><input type="radio" name="plataforma"> Xbox</label>
+                    </div>
+                    <div class="opcion-filtro">
+                        <label><input type="radio" name="plataforma"> Switch</label>
+                    </div>
+
+                    <h3 class="titulo-precio">Precio (€)</h3>
+                    <div class="rango-precio">
+                        <input type="text" placeholder="Min">
+                        <span class="separador">-</span>
+                        <input type="text" placeholder="Max">
+                    </div>
+                </form>
+            </aside>
+
+            <div class="grid-juegos">
+                <article class="tarjeta-juego">
+                    <div class="contenedor-imagen">
+                        <img src="imagenes/exp33.jpg" alt="Expedition 33">
+                        <div class="badges">
+                            <span class="tag-plataforma">PS5</span>
+                        </div>
+                    </div>
+                    <div class="info-tarjeta">
+                        <h3>Expedition 33</h3>
+                        <span class="precio-verde">59.99€</span>
+                    </div>
+                </article>
+
+                <article class="tarjeta-juego">
+                    <div class="contenedor-imagen">
+                        <img src="imagenes/exp33.jpg" alt="Forza Horizon 5">
+                        <div class="badges">
+                            <span class="descuento">-15%</span>
+                            <span class="tag-plataforma">XBOX</span>
+                        </div>
+                    </div>
+                    <div class="info-tarjeta">
+                        <h3>Forza Horizon 5</h3>
+                        <div class="precios-grid">
+                            <span class="precio-antes">39.99€</span>
+                            <span class="precio-verde">33.99€</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <button class="btn-subir">↑</button>
+    </main>
+
+    <footer>
+        <p>© 2026 Eneba Clone MVP. Proyecto Educativo.</p>
+    </footer>
+</body>
+</html>
