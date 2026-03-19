@@ -1,172 +1,172 @@
 /* --- DISEÑO DEL CATÁLOGO --- */
 
 .catalogo-main {
-    max-width: 1200px;
-    margin: 40px auto;
-    padding: 0 20px;
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 0 20px;
 }
 
 .catalogo-main h2 {
-    color: white;
-    margin-bottom: 50px;
-    font-size: 2rem;
+  color: white;
+  margin-bottom: 50px;
+  font-size: 2rem;
 }
 
 .contenido-catalogo {
-    display: flex;
-    gap: 30px;
-    align-items: flex-start;
+  display: flex;
+  gap: 30px;
+  align-items: flex-start;
 }
 
 /* --- BARRA DE FILTROS --- */
 .filtros {
-    flex: 0 0 250px;
-    background-color: #1a1a1b;
-    padding: 30px 25px;
-    border-radius: 12px;
+  flex: 0 0 250px;
+  background-color: #1a1a1b;
+  padding: 30px 25px;
+  border-radius: 12px;
 }
 
 .filtros h3 {
-    color: white;
-    font-size: 1.1rem;
-    margin-bottom: 20px;
-    border-bottom: 1px solid #333;
-    padding-bottom: 10px;
+  color: white;
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #333;
+  padding-bottom: 10px;
 }
 
 /* CORRECCIÓN: Alineación del radio button y el texto */
 .opcion-filtro label {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    color: #ccc;
-    margin-bottom: 22px;
-    cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #ccc;
+  margin-bottom: 22px;
+  cursor: pointer;
 }
 
 .rango-precio {
-    display: flex;
-    align-items: center;
-    gap: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .rango-precio input {
-    width: 100%;
-    padding: 8px;
-    background-color: #0d0d0d;
-    border: 1px solid #444;
-    color: white;
-    border-radius: 4px;
+  width: 100%;
+  padding: 8px;
+  background-color: #0d0d0d;
+  border: 1px solid #444;
+  color: white;
+  border-radius: 4px;
 }
 
 .separador {
-    color: white;
+  color: white;
 }
 
 /* --- GRID DE JUEGOS --- */
 .grid-juegos {
-    flex: 1;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
 }
 
 .tarjeta-juego {
-    background-color: #1a1a1b;
-    border-radius: 8px;
-    overflow: hidden;
-    transition: transform 0.2s;
+  background-color: #1a1a1b;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.2s;
 }
 
 .tarjeta-juego:hover {
-    transform: translateY(-5px);
+  transform: translateY(-5px);
 }
 
 /* CORRECCIÓN: Posicionamiento de las etiquetas SOBRE la imagen */
 .contenedor-imagen {
-    position: relative; /* Base para que los hijos con absolute no se escapen */
-    width: 100%;
-    height: 350px;
+  position: relative; /* Base para que los hijos con absolute no se escapen */
+  width: 100%;
+  height: 350px;
 }
 
 .contenedor-imagen img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .badges {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    right: 10px;
-    display: flex;
-    justify-content: space-between; /* Descuento a la izquierda, plataforma a la derecha */
-    align-items: flex-start;
-    pointer-events: none; /* Para que no molesten al hacer clic en la imagen */
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  display: flex;
+  justify-content: space-between; /* Descuento a la izquierda, plataforma a la derecha */
+  align-items: flex-start;
+  pointer-events: none; /* Para que no molesten al hacer clic en la imagen */
 }
 
 .tag-plataforma {
-    background: rgba(0, 0, 0, 0.7);
-    color: white;
-    padding: 2px 8px;
-    font-size: 0.7rem;
-    font-weight: bold;
-    border-radius: 3px;
-    margin-left: auto; /* Si no hay descuento, se va solo a la derecha */
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 2px 8px;
+  font-size: 0.7rem;
+  font-weight: bold;
+  border-radius: 3px;
+  margin-left: 3px; /* Si no hay descuento, se va solo a la derecha */
 }
 
 .descuento {
-    background: #ffda00;
-    color: black;
-    padding: 2px 8px;
-    font-weight: bold;
-    border-radius: 3px;
-    font-size: 0.8rem;
+  background: #ffda00;
+  color: black;
+  padding: 2px 8px;
+  font-weight: bold;
+  border-radius: 3px;
+  font-size: 0.8rem;
 }
 
 .info-tarjeta {
-    padding: 15px;
+  padding: 15px;
 }
 
 .info-tarjeta h3 {
-    font-size: 1rem;
-    color: white;
-    margin-bottom: 10px;
+  font-size: 1rem;
+  color: white;
+  margin-bottom: 10px;
 }
 
 .precio-verde {
-    color: #00e676;
-    font-weight: bold;
-    font-size: 1.2rem;
+  color: #00e676;
+  font-weight: bold;
+  font-size: 1.2rem;
 }
 
 .precio-antes {
-    color: #777;
-    text-decoration: line-through;
-    font-size: 0.9rem;
-    margin-right: 8px;
+  color: #777;
+  text-decoration: line-through;
+  font-size: 0.9rem;
+  margin-right: 8px;
 }
 
 .titulo-precio {
-    margin-top: 50px !important; /* Forzamos un hueco grande antes de empezar la sección de precio */
-    color: white;
-    font-size: 1.2rem;
-    font-weight: bold;
-    padding-bottom: 15px;
-    border-bottom: 1px solid #2d2d2e;
+  margin-top: 50px !important; /* Forzamos un hueco grande antes de empezar la sección de precio */
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #2d2d2e;
 }
 
 /* Botón subir */
 .btn-subir {
-    position: fixed;
-    bottom: 30px;
-    right: 30px;
-    background-color: #ffda00;
-    width: 45px;
-    height: 45px;
-    border-radius: 50%;
-    border: none;
-    font-weight: bold;
-    cursor: pointer;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: #ffda00;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
 }

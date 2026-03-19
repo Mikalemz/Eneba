@@ -1,87 +1,87 @@
 /* --- ESTILO DE LA PÁGINA DE LOGIN --- */
 
 .login-main {
-    flex-grow: 1; /* Empuja el footer hacia abajo */
-    display: flex;
-    justify-content: center; /* Centra horizontalmente */
-    align-items: center;     /* Centra verticalmente */
-    padding: 40px;
+  flex-grow: 1; /* Empuja el footer hacia abajo */
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+  padding: 40px;
 }
 
 .tarjeta-login {
-    background-color: #272728; /* Gris más claro que el fondo */
-    padding: 50px 40px;
-    border-radius: 12px;
-    width: 100%;
-    max-width: 450px; /* Ancho máximo para que no se estire demasiado */
-    text-align: center;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5); /* Sombra para darle profundidad */
+  background-color: #272728;
+  padding: 50px 40px;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 450px; /* Ancho máximo para que no se estire demasiado */
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5); /* Sombra*/
 }
 
 .tarjeta-login h2 {
-    color: white;
-    font-size: 2rem;
-    margin-bottom: 10px;
+  color: white;
+  font-size: 2rem;
+  margin-bottom: 10px;
 }
 
 .subtitulo {
-    color: #aaa;
-    margin-bottom: 30px;
-    font-size: 0.95rem;
+  color: #aaa;
+  margin-bottom: 30px;
+  font-size: 0.95rem;
 }
 
 /* Campos del formulario */
 .campo {
-    text-align: left;
-    margin-bottom: 20px;
+  text-align: left;
+  margin-bottom: 20px;
 }
 
 .campo label {
-    display: block;
-    color: #ccc;
-    margin-bottom: 8px;
-    font-size: 0.9rem;
+  display: block;
+  color: #ccc;
+  margin-bottom: 8px;
+  font-size: 0.9rem;
 }
 
 .campo input {
-    width: 100%;
-    padding: 14px;
-    background-color: #1a1a1b; /* Fondo oscuro para los inputs */
-    border: 1px solid #333;
-    border-radius: 6px;
-    color: white;
-    font-size: 1rem;
-    box-sizing: border-box; /* Evita que el padding rompa el ancho */
+  width: 100%;
+  padding: 14px;
+  background-color: #1a1a1b; /* Fondo oscuro para los inputs */
+  border: 1px solid #333;
+  border-radius: 6px;
+  color: white;
+  font-size: 1rem;
+  box-sizing: border-box; /* Evita que el padding rompa el ancho */
 }
 
 /* Botón Amarillo */
-.btn-login {
-    width: 100%;
-    background-color: #ffda00;
-    color: #1a1a1b;
-    border: none;
-    padding: 16px;
-    border-radius: 30px;
-    font-weight: bold;
-    font-size: 1.1rem;
-    cursor: pointer;
-    margin-top: 20px;
-    transition: background 0.2s;
+.boton-login {
+  width: 100%;
+  background-color: #ffda00;
+  color: #1a1a1b;
+  border: none;
+  padding: 16px;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 1.1rem;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background 0.2s;
 }
 
-.btn-login:hover {
-    background-color: #e5c300;
+.boton-login:hover {
+  background-color: #e5c300;
 }
 
 /* Enlace inferior */
 .registro {
-    margin-top: 25px;
-    color: #aaa;
-    font-size: 0.9rem;
+  margin-top: 25px;
+  color: #aaa;
+  font-size: 0.9rem;
 }
 
 .registro a {
-    color: #ffda00;
-    text-decoration: none;
-    font-weight: bold;
+  color: #ffda00;
+  text-decoration: none;
+  font-weight: bold;
 }
