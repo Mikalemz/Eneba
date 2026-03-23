@@ -82,7 +82,6 @@
   transform: translateY(-5px);
 }
 
-/* CORRECCIÓN: Posicionamiento de las etiquetas SOBRE la imagen */
 .contenedor-imagen {
   position: relative; /* Base para que los hijos con absolute no se escapen */
   width: 100%;
@@ -149,8 +148,7 @@
 }
 
 .titulo-precio {
-  margin-top: 50px !important; /* Forzamos un hueco grande antes de empezar la sección de precio */
-  color: white;
+  margin-top: 50px;
   font-size: 1.2rem;
   font-weight: bold;
   padding-bottom: 15px;
