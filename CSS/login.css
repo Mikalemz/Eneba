@@ -1,10 +1,10 @@
 /* --- ESTILO DE LA PÁGINA DE LOGIN --- */
 
 .login-main {
-  flex-grow: 1; /* Empuja el footer hacia abajo */
+  flex-grow: 1;
   display: flex;
-  justify-content: center; /* Centra horizontalmente */
-  align-items: center; /* Centra verticalmente */
+  justify-content: center;
+  align-items: center;
   padding: 40px;
 }
 
@@ -15,7 +15,7 @@
   width: 100%;
   max-width: 450px;
   text-align: center;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5); /* Sombra*/
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
 }
 
 .tarjeta-login h2 {
@@ -46,12 +46,12 @@
 .campo input {
   width: 100%;
   padding: 14px;
-  background-color: #1a1a1b; /* Fondo oscuro para los inputs */
+  background-color: #1a1a1b;
   border: 1px solid #333;
   border-radius: 6px;
   color: white;
   font-size: 1rem;
-  box-sizing: border-box; /* Evita que el padding rompa el ancho */
+  box-sizing: border-box;
 }
 
 /* Botón Amarillo */

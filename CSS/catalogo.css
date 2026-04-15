@@ -34,7 +34,7 @@
   padding-bottom: 10px;
 }
 
-/* CORRECCIÓN: Alineación del radio button y el texto */
+/*Alineación del radio button y el texto */
 .opcion-filtro label {
   display: flex;
   align-items: center;
@@ -83,7 +83,7 @@
 }
 
 .contenedor-imagen {
-  position: relative; /* Base para que los hijos con absolute no se escapen */
+  position: relative;
   width: 100%;
   height: 350px;
 }
@@ -100,9 +100,9 @@
   left: 10px;
   right: 10px;
   display: flex;
-  justify-content: space-between; /* Descuento a la izquierda, plataforma a la derecha */
+  justify-content: space-between;
   align-items: flex-start;
-  pointer-events: none; /* Para que no molesten al hacer clic en la imagen */
+  pointer-events: none;
 }
 
 .tag-plataforma {
@@ -112,7 +112,7 @@
   font-size: 0.7rem;
   font-weight: bold;
   border-radius: 3px;
-  margin-left: 3px; /* Si no hay descuento, se va solo a la derecha */
+  margin-left: 3px;
 }
 
 .descuento {
