@@ -37,7 +37,7 @@
 }
 
 .banner button {
-  background-color: #ffda00; /* Amarillo Eneba */
+  background-color: #ffda00;
   border: none;
   padding: 15px 30px;
   border-radius: 30px;
@@ -61,13 +61,13 @@
 }
 
 .enlace-cat {
-flex: 1;                /* IMPORTANTE: Hace que todas midan lo mismo */
-  max-width: 300px;       /* Para que no se estiren infinito en pantallas grandes */
+  flex: 1;
+  max-width: 300px;
   text-decoration: none;
   color: white;
-  background-color: #272728; /* Gris oscuro igual que el buscador */
-  padding: 35px 20px;     /* Mucho padding arriba/abajo para dar altura */
-  border-radius: 8px;     /* Esquinas menos redondeadas, como en la imagen */
+  background-color: #272728;
+  padding: 35px 20px;
+  border-radius: 8px;
   font-weight: bold;
   font-size: 16px;
   text-align: center;

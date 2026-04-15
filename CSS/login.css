@@ -13,7 +13,7 @@
   padding: 50px 40px;
   border-radius: 12px;
   width: 100%;
-  max-width: 450px; /* Ancho máximo para que no se estire demasiado */
+  max-width: 450px;
   text-align: center;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5); /* Sombra*/
 }
