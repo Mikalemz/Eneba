@@ -1,5 +1,21 @@
 /*MAIN*/
 
+/*sistema de diseño*/
+
+/*Spacing system*/
+/* 8 / 10 / 16 / 24 / 32 / 48 / 64*/
+
+/*Typography system*/
+/*12 / 14 / 16 / 18 / 20 / 24 / 42 / 48*/
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
 .boton {
   text-decoration: none;
   color: #1a1a1b;
@@ -77,4 +93,15 @@
 .enlace-cat:hover {
   background-color: #ffda00;
   color: black;
+}
+
+.catalogoJuegos {
+  max-width: 300em;
+  flex: 1;
+}
+
+@media (max-width: 768px) {
+  body {
+    background-color: red;
+  }
 }
